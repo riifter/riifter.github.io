@@ -2,3 +2,7 @@
   font-family: 'gg-sans';
   src: url('../assets/fonts/gg sans Regular.ttf') format('ttf');
 }
+
+body {
+  font-family: 'gg-sans', Fallback, sans-serif;
+}
