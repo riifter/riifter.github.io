@@ -1,9 +1,41 @@
 @font-face {
-  font-family: 'gg-sans';
-  src: url('./assets/fonts/gg sans Regular.woff2') format('woff2'),
-  url('./assets/fonts/gg sans Regular.ttf') format('ttf');
+    font-family: 'gg-sans';
+    src: url('./assets/fonts/gg sans Regular.woff2');
 }
 
 body {
-  font-family: 'gg-sans', sans-serif;
+    background-color: #2C2D32;
+    font-family: 'gg-sans', sans-serif;
+    color: #efeff0;
+}
+
+.backdrop {
+    width: 1000px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #36373E;
+    padding: 8px;
+}
+
+.iconBox {
+    width: fit-content;
+    height: 40px;
+    float: left;
+    padding-left: 4px;
+    padding-right: 14px;
+}
+
+.icon {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0;
 }
